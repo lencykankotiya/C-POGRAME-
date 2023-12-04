@@ -1,0 +1,145 @@
+#include<stdio.h>
+void main()
+{
+	int a,b,n,choice;
+	printf("Enter value = ");
+	scanf("%d",&n);
+	void p1()
+	{
+		for(a=1;a<=5;a++)
+		{
+			printf("\n");
+			for(b=5;b>0;b--)
+			{
+				printf("%d\t",a);
+			}
+		}
+	}
+	void p2()
+	{
+		for(a=5;a>=1;a--)
+		{
+			printf("\n");
+			for(b=1;b<=5;b++)
+			{
+				printf("%d\t",a);
+			}
+		}
+	}
+	void p3()
+	{
+		for(a=5;a>=1;a--)
+		{
+			printf("\n");
+			for(b=1;b<=5;b++)
+			{
+				printf("%d\t",b);
+			}
+		}
+	}
+	void p4()
+	{
+		for(a=1;a<=n;a=a+2)
+		{
+			printf("\n");
+			for(b=5;b>0;b--)
+			{
+				printf("%d\t",a);
+			}
+		}
+	}
+	void p5()
+	{
+		for(a=0;a<=n;a=a+2)
+		{
+			printf("\n");
+			for(b=1;b<=5;b++)
+			{
+					printf("%d\t",a);
+			}
+		}
+	}
+	void p6()
+	{
+		for(a=1;a<=25;a=a+0)
+		{
+			for(b=1;b<=5;b++)
+			{
+				printf("%d\t",a++);
+			}
+			printf("\n");
+		}
+	}
+	void p7()
+	{	
+		for(a=11;a<=55;a=a+0)
+		{
+			for(b=1;b<=5;b++)
+			{
+				printf("%d\t",a++);
+			}
+			a=a+5;
+			printf("\n");
+		}
+	}
+	void p8()
+	{
+		for(a=65;a<=69;a++)
+		{
+			printf("\n");
+			for(b=5;b>0;b--)
+			{
+				printf("%c\t",a);
+			}
+		}
+	}
+	void p9()
+	{
+		for(a=65;a<90;a=a+0)
+		{
+			for(b=1;b<=5;b++)
+			{
+				printf("%c\t",a++);
+			}
+			printf("\n");
+		}
+	}
+	printf("Which pattern you print = ");
+	scanf("%d",&choice);
+	if(choice==1)
+	{
+		p1();
+	}
+	if(choice==2)
+	{
+		p2();
+	}
+	if(choice==3)
+	{
+		p3();
+	}
+	if(choice==4)
+	{
+		p4();
+	}
+	if(choice==5)
+	{
+		p5();
+	}
+	if(choice==6)
+	{
+		p6();
+	}
+	if(choice==7)
+	{
+		p7();
+	}
+	if(choice==8)
+	{
+		p8();
+	}
+	if(choice==9)
+	{
+		p9();
+	}
+}
